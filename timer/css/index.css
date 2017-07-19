@@ -1,0 +1,1400 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+　　width:100%;
+/* 　　height:100%; */
+	overflow: hidden;
+	font-size: 62.5%;
+}
+body{
+	background: #000;
+}
+.show{
+	display: block;
+}
+.first-page{
+	width: 100%;
+	/* height: 100%; */
+	position: absolute;
+	z-index: 9999999;
+}
+.word-first{
+	pointer-events: none;
+	position: absolute;
+	top: 15rem;
+	left: 1rem;
+	-webkit-pointer-events: none;
+	-moz-pointer-events: none;
+	-o-pointer-events: none;
+}
+.first-button{
+	position: absolute;
+	top: 32rem;
+	left: 50%;
+	margin-left:-4rem; 
+	width: 36rem;
+	height: 36rem;
+	animation: pulse 1s infinite;
+	-webkit-animation: pulse 1s infinite;
+	-moz-animation: pulse 1s infinite;
+	-o-animation: pulse 1s infinite;
+}
+.bgColor{
+	pointer-events: none;
+	background: url('../images/新/第一页/背景.PNG') no-repeat;
+	opacity: 0.8;
+	pointer-events: none;
+	width: 100%;
+	/* height: 100%; */
+	position: absolute;
+	background-size: 100% 100%;
+	z-index: 999999;
+	-webkit-pointer-events: none;
+	-moz-pointer-events: none;
+	-o-pointer-events: none;
+}
+.word-frist{
+	pointer-events: none;
+	-webkit-pointer-events: none;
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+}
+.main{
+	/* pointer-events: none; */
+	width: 100%;
+	/* height: 100%; */
+	position: absolute;
+	background: url(../images/k2.png) no-repeat;
+	background-size: 100% 100%;
+	z-index: 999;
+	-webkit-pointer-events: none;
+	-moz-pointer-events: none;
+	-o-pointer-events: none;
+}
+.outline{
+	pointer-events: none;
+	-webkit-pointer-events: none;
+	-moz-pointer-events: none;
+	-o-pointer-events: none;
+	width: 80%;
+	/* height: 100%; */
+	background: url(../images/k1.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 11%;
+	left: 10%;
+	z-index: 9;
+	
+}
+.door_lt{
+	background: url(../images/l.jpg) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 11%;
+	width: 50%;
+	/* height: 100%; */
+	z-index: 99;
+}
+.door_rt{
+	background: url(../images/r.jpg) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top:11%;
+	right: 0;
+	width: 50%;
+	/* height: 100%; */
+	z-index: 99;
+}
+.cover{
+	background: url(../images/123gai.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	right: 2.95%;
+	top: 19%;
+	width: 6%;
+	height: 20.68%;
+	z-index:1999;
+}
+.icon_up{
+	background: url(../images/s.png) no-repeat;
+	background-position: top;
+	background-size: 100%;
+	position: absolute;
+	right: 4.1%;
+	width: 4%;
+	height: 3%;
+	animation: up 2.5s infinite;
+	-webkit-animation: up 2.5s infinite;
+	-moz-animation: up 2.5s infinite;
+	-o-animation: up 2.5s infinite;
+	z-index: 1998;
+}
+.icon_down{
+	background: url(../images/x.png) no-repeat;
+	background-position: top;
+	background-size: 100%;
+	position: absolute;
+	right: 4.1%;
+	width: 4%;
+	height: 3%;
+	z-index: 1998;
+	animation: down 2.5s infinite;
+	-webkit-animation: down 2.5s infinite;
+	-moz-animation: down 2.5s infinite;
+	-o-animation: down 2.5s infinite;
+	display: none;
+}
+.floor{
+	width: 100%;
+	height: 10%;
+	color: #ef0000;
+	font-size: 2rem;
+	position: absolute;
+	text-align: center;
+	top: 3.5rem;
+	font-weight: bolder;
+	z-index: 1999;
+}
+.music{
+	background: url(../images/musicICO.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top:14%;
+	right: 3%;
+	width: 6%;
+	height: 7%;
+	z-index: 999988;
+}
+.container{
+	position: absolute;
+	top:12.8%;
+	left: 11%;
+	width: 78%;
+	/* height: 100%; */
+}
+.goPage{
+	pointer-events: none;
+	-webkit-pointer-events: none;
+	-moz-pointer-events: none;
+	-o-pointer-events: none;
+	background: url(../images/next.png) no-repeat;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	width: 47px;
+	height: 30px;
+	margin-left: -23px;
+	animation: fadeInUp 1.5s infinite;
+	-webkit-animation: fadeInUp 1.5s infinite;
+	-moz-animation: fadeInUp 1.5s infinite;
+	-o-animation: fadeInUp 1.5s infinite;
+	z-index: 199999;
+}
+.bottom{
+	pointer-events: none;
+	-webkit-pointer-events: none;
+	-moz-pointer-events: none;
+	-o-pointer-events: none;
+	background: url(../images/0-1gai.jpg) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height:10%;
+	z-index: 99999;
+}
+.one{
+	background: url('../images/新/婴儿/婴儿图.png') no-repeat;
+	width: 100%;
+	/* height: 100%; */
+	background-size: contain;
+	background-position: top;
+	position: relative;
+}
+.two{
+	background: url('../images/新/少年/少年图.PNG') no-repeat;
+	width: 100%;
+	/* height: 10rem; */
+	background-size: contain;
+	background-position: top;
+	position: relative;
+}
+.three{
+	background: url('../images/新/青年/青年图.PNG') no-repeat;
+	width: 100%;
+	/* height: 10rem; */
+	background-size: contain;
+	background-position: top;
+	position: relative;
+}
+.four{
+	background: url('../images/新/中年/four.jpg') no-repeat;
+	width: 100%;
+	/* height: 10rem; */
+	background-size: 100%;
+	background-position: top;
+	position: relative;
+}
+.five{
+	background: url('../images/新/老年/老年图.PNG') no-repeat;
+	width: 100%;
+	/* height: 10rem; */
+	background-size: contain;
+	background-position: top;
+	position: relative;
+}
+.six{
+	background: url('../images/新/第一页/背景.PNG') no-repeat;
+	width: 100%;
+	/* height: 10rem; */
+	background-size: contain;
+	background-position: top;
+	position: relative;
+}
+.animate{
+	animation: fadeInUp 1.5s;
+	-webkit-animation: fadeInUp 1.5s;
+	-moz-animation: fadeInUp 1.5s;
+	-o-animation: fadeInUp 1.5s;
+}
+.word{
+	position: absolute;
+	top: 5rem;
+	left: 1rem;
+}
+.word-four{
+	position: absolute;
+	top: 28rem;
+	left: 3rem;
+}
+.word-six{
+	position: absolute;
+	top: 12rem;
+	left: 1rem
+}
+.button{
+	position: absolute;
+	top: 30rem;
+	left: 50%;
+	margin-left: -3.45rem;
+	background: url('../images/新/最后一页/按钮.png') no-repeat;
+	background-size: contain;
+	width: 7.9rem;
+	height: 3.15rem; 
+	animation: pulse 1s infinite;
+	-webkit-animation: pulse 1s infinite;
+	-moz-animation: pulse 1s infinite;
+	-o-animation: pulse 1s infinite;
+	z-index: 9999999999;
+	display: none;
+}
+@keyframes up{
+	from{ top : 25.6%; }
+	to{ top:19%; }
+}
+-webkit-@keyframes up{
+	from{ top : 25.6%; }
+	to{ top:19%; }
+}
+-moz-@keyframes up{
+	from{ top : 25.6%; }
+	to{ top:19%; }
+}
+-o-@keyframes up{
+	from{ top : 25.6%; }
+	to{ top:19%; }
+}
+@keyframes down{
+	from{ top : 25.5%; }
+	to{ top:31%; }
+}
+-webkit-@keyframes down{
+	from{ top : 25.5%; }
+	to{ top:31%; }
+}
+-moz-@keyframes down{
+	from{ top : 25.5%; }
+	to{ top:31%; }
+}
+-o-@keyframes down{
+	from{ top : 25.5%; }
+	to{ top:31%; }
+}
+@media only screen and (max-width: 375px){
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 2rem;
+		position: absolute;
+		text-align: center;
+		top: 2.75rem;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+}
+-webkit-@media only screen and (max-width: 375px){
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 2rem;
+		position: absolute;
+		text-align: center;
+		top: 2.75rem;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+}
+-moz-@media only screen and (max-width: 375px){
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 2rem;
+		position: absolute;
+		text-align: center;
+		top: 2.75rem;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+}
+-o-@media only screen and (max-width: 375px){
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 2rem;
+		position: absolute;
+		text-align: center;
+		top: 2.75rem;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	.word-six{
+		position: absolute;
+		top: 52rem;
+		left: 1rem
+	}
+	.word-first{
+		pointer-events: none;
+		-webkit-pointer-events: none;
+		-moz-pointer-events: none;
+		-o-pointer-events: none;
+		position: absolute;
+		top: 25rem;
+		left: 20rem;
+		animation: fadeInUp 1.5s;
+		-webkit-animation: fadeInUp 1.5s;
+	}
+	.first-button{
+		position: absolute;
+		top: 55rem;
+		left: 50%;
+		margin-left:-4rem; 
+		width: 36rem;
+		height: 36rem;
+		animation: pulse 1s infinite;
+		-webkit-animation: pulse 1s infinite;
+	}
+	.cover{
+		background: url(../images/123gai.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		right: 2.95%;
+		top: 19%;
+		width: 6%;
+		height: 20.68%;
+		z-index:1999;
+	}
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 5rem;
+		position: absolute;
+		text-align: center;
+		top: 36%;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+	.icon_up{
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.icon_down{
+		background: url(../images/x.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		width: 4%;
+		height: 3%;
+		z-index: 1998;
+		animation: downa 2.5s infinite;
+		-webkit-animation: downa 2.5s infinite;	
+		display: none;
+	}
+	.icon_up{
+		width: 2.5rem;
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 4%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.word{
+		position: absolute;
+		top: 5rem;
+		left: 8rem;
+	}
+	.word-four{
+		position: absolute;
+		top: 70rem;
+		left: 20rem;
+	}
+	@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	-webkit-@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+	-webkit-@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+}
+-webkit-@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	.cover{
+		background: url(../images/123gai.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		right: 2.95%;
+		top: 19%;
+		width: 6%;
+		height: 20.68%;
+		z-index:1999;
+	}
+	.word-first{
+		pointer-events: none;
+		-webkit-pointer-events: none;
+		position: absolute;
+		top: 25rem;
+		left: 20rem;
+		animation: fadeInUp 1.5s;
+		-webkit-animation: fadeInUp 1.5s;
+	}
+	.first-button{
+		position: absolute;
+		top: 55rem;
+		left: 50%;
+		margin-left:-4rem; 
+		width: 36rem;
+		height: 36rem;
+		animation: pulse 1s infinite;
+		-webkit-animation: pulse 1s infinite;
+	}
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 5rem;
+		position: absolute;
+		text-align: center;
+		top: 36%;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+	.icon_up{
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.icon_down{
+		background: url(../images/x.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		width: 4%;
+		height: 3%;
+		z-index: 1998;
+		animation: downa 2.5s infinite;
+		-webkit-animation: downa 2.5s infinite;	
+		display: none;
+	}
+	.icon_up{
+		width: 2.5rem;
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 4%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.word{
+		position: absolute;
+		top: 5rem;
+		left: 8rem;
+	}
+	.word-four{
+		position: absolute;
+		top: 70rem;
+		left: 20rem;
+	}
+	@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	-webkit-@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+	-webkit-@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+}
+-moz-@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	.word-six{
+		position: absolute;
+		top: 52rem;
+		left: 1rem
+	}
+	.word-first{
+		pointer-events: none;
+		-webkit-pointer-events: none;
+		position: absolute;
+		top: 25rem;
+		left: 20rem;
+		animation: fadeInUp 1.5s;
+		-webkit-animation: fadeInUp 1.5s;
+	}
+	.first-button{
+		position: absolute;
+		top: 55rem;
+		left: 50%;
+		margin-left:-4rem; 
+		width: 36rem;
+		height: 36rem;
+		animation: pulse 1s infinite;
+		-webkit-animation: pulse 1s infinite;
+	}
+	.cover{
+		background: url(../images/123gai.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		right: 2.95%;
+		top: 19%;
+		width: 6%;
+		height: 20.68%;
+		z-index:1999;
+	}
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 5rem;
+		position: absolute;
+		text-align: center;
+		top: 36%;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+	.icon_up{
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.icon_down{
+		background: url(../images/x.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		width: 4%;
+		height: 3%;
+		z-index: 1998;
+		animation: downa 2.5s infinite;
+		-webkit-animation: downa 2.5s infinite;	
+		display: none;
+	}
+	.icon_up{
+		width: 2.5rem;
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 4%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.word{
+		position: absolute;
+		top: 5rem;
+		left: 8rem;
+	}
+	.word-four{
+		position: absolute;
+		top: 70rem;
+		left: 20rem;
+	}
+	@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	-webkit-@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+	-webkit-@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+}
+-o-@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	.word-six{
+		position: absolute;
+		top: 52rem;
+		left: 1rem
+	}
+	.word-first{
+		pointer-events: none;
+		-webkit-pointer-events: none;
+		position: absolute;
+		top: 25rem;
+		left: 20rem;
+		animation: fadeInUp 1.5s;
+		-webkit-animation: fadeInUp 1.5s;
+	}
+	.first-button{
+		position: absolute;
+		top: 55rem;
+		left: 50%;
+		margin-left:-4rem; 
+		width: 36rem;
+		height: 36rem;
+		animation: pulse 1s infinite;
+		-webkit-animation: pulse 1s infinite;
+	}
+	.cover{
+		background: url(../images/123gai.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		right: 2.95%;
+		top: 19%;
+		width: 6%;
+		height: 20.68%;
+		z-index:1999;
+	}
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 5rem;
+		position: absolute;
+		text-align: center;
+		top: 36%;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+	.icon_up{
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.icon_down{
+		background: url(../images/x.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		width: 4%;
+		height: 3%;
+		z-index: 1998;
+		animation: downa 2.5s infinite;
+		-webkit-animation: downa 2.5s infinite;	
+		display: none;
+	}
+	.icon_up{
+		width: 2.5rem;
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 4%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.word{
+		position: absolute;
+		top: 5rem;
+		left: 8rem;
+	}
+	.word-four{
+		position: absolute;
+		top: 70rem;
+		left: 20rem;
+	}
+	@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	-webkit-@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+	-webkit-@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+}
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+	.cover{
+		background: url(../images/123gai.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		right: 2.95%;
+		top: 19%;
+		width: 6%;
+		height: 20.68%;
+		z-index:1999;
+	}
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 5rem;
+		position: absolute;
+		text-align: center;
+		top: 36%;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+	.icon_up{
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.icon_down{
+		background: url(../images/x.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		width: 4%;
+		height: 3%;
+		z-index: 1998;
+		animation: downa 2.5s infinite;
+		-webkit-animation: downa 2.5s infinite;	
+		display: none;
+	}
+	.icon_up{
+		width: 2.5rem;
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 4%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.word-first{
+		pointer-events: none;
+		-webkit-pointer-events: none;
+		position: absolute;
+		top: 15rem;
+		left: 10rem;
+		animation: fadeInUp 1.5s;
+		-webkit-animation: fadeInUp 1.5s;
+	}
+	.first-button{
+		position: absolute;
+		top: 45rem;
+		left: 50%;
+		margin-left:-4rem; 
+		width: 36rem;
+		height: 36rem;
+		animation: pulse 1s infinite;
+		-webkit-animation: pulse 1s infinite;
+	}
+	.word{
+		position: absolute;
+		top: 5rem;
+		left: 3rem;
+	}
+	.word-four{
+		position: absolute;
+		top: 48rem;
+		left: 10rem;
+	}
+	@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	-webkit-@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+	-webkit-@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+}
+-webkit-@media only screen and (min-width: 700px) and (max-width: 1000px) {
+	.cover{
+		background: url(../images/123gai.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		right: 2.95%;
+		top: 19%;
+		width: 6%;
+		height: 20.68%;
+		z-index:1999;
+	}
+	.word-first{
+		pointer-events: none;
+		-webkit-pointer-events: none;
+		position: absolute;
+		top: 15rem;
+		left: 10rem;
+		animation: fadeInUp 1.5s;
+		-webkit-animation: fadeInUp 1.5s;
+	}
+	.first-button{
+		position: absolute;
+		top: 45rem;
+		left: 50%;
+		margin-left:-4rem; 
+		width: 36rem;
+		height: 36rem;
+		animation: pulse 1s infinite;
+		-webkit-animation: pulse 1s infinite;
+	}
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 5rem;
+		position: absolute;
+		text-align: center;
+		top: 36%;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+	.icon_up{
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.icon_down{
+		background: url(../images/x.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		width: 4%;
+		height: 3%;
+		z-index: 1998;
+		animation: downa 2.5s infinite;
+		-webkit-animation: downa 2.5s infinite;	
+		display: none;
+	}
+	.icon_up{
+		width: 2.5rem;
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 4%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.word{
+		position: absolute;
+		top: 5rem;
+		left: 3rem;
+	}
+	.word-four{
+		position: absolute;
+		top: 48rem;
+		left: 10rem;
+	}
+	@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	-webkit-@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+	-webkit-@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+}
+-moz-@media only screen and (min-width: 700px) and (max-width: 1000px) {
+	.cover{
+		background: url(../images/123gai.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		right: 2.95%;
+		top: 19%;
+		width: 6%;
+		height: 20.68%;
+		z-index:1999;
+	}
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 5rem;
+		position: absolute;
+		text-align: center;
+		top: 36%;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+	.icon_up{
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.icon_down{
+		background: url(../images/x.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		width: 4%;
+		height: 3%;
+		z-index: 1998;
+		animation: downa 2.5s infinite;
+		-webkit-animation: downa 2.5s infinite;	
+		display: none;
+	}
+	.icon_up{
+		width: 2.5rem;
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 4%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.word-first{
+		pointer-events: none;
+		-webkit-pointer-events: none;
+		position: absolute;
+		top: 15rem;
+		left: 10rem;
+		animation: fadeInUp 1.5s;
+		-webkit-animation: fadeInUp 1.5s;
+	}
+	.first-button{
+		position: absolute;
+		top: 45rem;
+		left: 50%;
+		margin-left:-4rem; 
+		width: 36rem;
+		height: 36rem;
+		animation: pulse 1s infinite;
+		-webkit-animation: pulse 1s infinite;
+	}
+	.word{
+		position: absolute;
+		top: 5rem;
+		left: 3rem;
+	}
+	.word-four{
+		position: absolute;
+		top: 48rem;
+		left: 10rem;
+	}
+	@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	-webkit-@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+	-webkit-@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+}
+-o-@media only screen and (min-width: 700px) and (max-width: 1000px) {
+	.cover{
+		background: url(../images/123gai.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		right: 2.95%;
+		top: 19%;
+		width: 6%;
+		height: 20.68%;
+		z-index:1999;
+	}
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 5rem;
+		position: absolute;
+		text-align: center;
+		top: 36%;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+	.icon_up{
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.icon_down{
+		background: url(../images/x.png) no-repeat;
+		background-position: top;
+		background-size: 100%;
+		position: absolute;
+		right: 4.1%;
+		width: 4%;
+		height: 3%;
+		z-index: 1998;
+		animation: downa 2.5s infinite;
+		-webkit-animation: downa 2.5s infinite;	
+		display: none;
+	}
+	.icon_up{
+		width: 2.5rem;
+		background: url(../images/s.png) no-repeat;
+		background-position: top;
+		background-size: 100% 100%;
+		position: absolute;
+		right: 4%;
+		height: 3%;
+		animation: up 2.5s infinite;
+		-webkit-animation: up 2.5s infinite;	
+		z-index: 1998;
+	}
+	.word-first{
+		pointer-events: none;
+		-webkit-pointer-events: none;
+		position: absolute;
+		top: 15rem;
+		left: 10rem;
+		animation: fadeInUp 1.5s;
+		-webkit-animation: fadeInUp 1.5s;
+	}
+	.first-button{
+		position: absolute;
+		-webkit-pointer-events: none;
+		top: 45rem;
+		left: 50%;
+		margin-left:-4rem; 
+		width: 36rem;
+		height: 36rem;
+		animation: pulse 1s infinite;
+		-webkit-animation: pulse 1s infinite;
+	}
+	.word{
+		position: absolute;
+		top: 5rem;
+		left: 3rem;
+	}
+	.word-four{
+		position: absolute;
+		top: 48rem;
+		left: 10rem;
+	}
+	@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	-webkit-@keyframes downa{
+		from{ top : 29%; }
+		to{ top:35.5%; }
+	}
+	@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+	-webkit-@keyframes up{
+		from{ top : 25.6%; }
+		to{ top:19%; }
+	}
+}
+@media only screen and (max-width: 380px ) and (min-width: 360px) {
+	.word-four{
+		position: absolute;
+		top: 29rem;
+		left: 3rem;
+	}
+	.cover{
+		background: url(../images/123gai.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		right: 2.95%;
+		top: 20.3%;
+		width: 6%;
+		height: 20.68%;
+		z-index:1999;
+	}
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 2rem;
+		position: absolute;
+		text-align: center;
+		top: 3.65rem;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+	@keyframes up{
+		from{ top : 27%; }
+		to{ top:21%; }
+	}
+	@keyframes down{
+		from{ top : 29%; }
+		to{ top:34%; }
+	}
+}
+-webkit-@media only screen and (max-width: 380px ) and (min-width: 360px) {
+	.word-four{
+		position: absolute;
+		top: 29rem;
+		left: 3rem;
+	}
+	.cover{
+		background: url(../images/123gai.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		right: 2.95%;
+		top: 20.3%;
+		width: 6%;
+		height: 20.68%;
+		z-index:1999;
+	}
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 2rem;
+		position: absolute;
+		text-align: center;
+		top: 3.65rem;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+	@keyframes up{
+		from{ top : 27%; }
+		to{ top:21%; }
+	}
+	@keyframes down{
+		from{ top : 29%; }
+		to{ top:34%; }
+	}
+}
+-moz-@media only screen and (max-width: 380px ) and (min-width: 360px) {
+	.word-four{
+		position: absolute;
+		top: 29rem;
+		left: 3rem;
+	}
+	.cover{
+		background: url(../images/123gai.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		right: 2.95%;
+		top: 20.3%;
+		width: 6%;
+		height: 20.68%;
+		z-index:1999;
+	}
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 2rem;
+		position: absolute;
+		text-align: center;
+		top: 3.65rem;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+	@keyframes up{
+		from{ top : 27%; }
+		to{ top:21%; }
+	}
+	@keyframes down{
+		from{ top : 29%; }
+		to{ top:34%; }
+	}
+}
+-o-@media only screen and (max-width: 380px ) and (min-width: 360px) {
+	.word-four{
+		position: absolute;
+		top: 29rem;
+		left: 3rem;
+	}
+	.cover{
+		background: url(../images/123gai.png) no-repeat;
+		background-size: 100%;
+		position: absolute;
+		right: 2.95%;
+		top: 20.3%;
+		width: 6%;
+		height: 20.68%;
+		z-index:1999;
+	}
+	.floor{
+		width: 100%;
+		height: 10%;
+		color: #ef0000;
+		font-size: 2rem;
+		position: absolute;
+		text-align: center;
+		top: 3.65rem;
+		font-weight: bolder;
+		z-index: 1999;
+	}
+	@keyframes up{
+		from{ top : 27%; }
+		to{ top:21%; }
+	}
+	@keyframes down{
+		from{ top : 29%; }
+		to{ top:34%; }
+	}
+}
+@media only screen and (max-width: 350px ) {
+	.word-four{
+		position: absolute;
+		top: 23rem;
+		left: 3rem;
+	}
+}
+-webkit-@media only screen and (max-width: 350px ) {
+	.word-four{
+		position: absolute;
+		top: 23rem;
+		left: 3rem;
+	}
+}
+-moz-@media only screen and (max-width: 350px ) {
+	.word-four{
+		position: absolute;
+		top: 23rem;
+		left: 3rem;
+	}
+}
+-o-@media only screen and (max-width: 350px ) {
+	.word-four{
+		position: absolute;
+		top: 23rem;
+		left: 3rem;
+	}
+}
