@@ -10,6 +10,14 @@
 				el:"#message",
 				data:{
 					msg:"Holle Wrold!"
+				},
+				el:".div",
+				data:{
+					name:'wang',
+					age:'23',
+					flag:true,
+					nums:[12,4,23,5],
+					user:{id:9527,name:'唐伯虎'}
 				}
 			});
 		}
@@ -17,6 +25,13 @@
 </head>
 <body>
 	<!-- <div id="message">{{ msg }}</div> -->
-	
+	<div class="div">
+		用户名：<input type="text" v-model="name"><br/>
+		{{ name }}<br/>
+		{{ age }}<br/>
+		{{ flag }}<br/>
+		{{ nums }}<br/>
+		{{ user }}
+	</div>
 </body>
 </html>
